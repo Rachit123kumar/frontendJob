@@ -3,7 +3,8 @@ import CredentialsProvider from 'next-auth/providers/credentials';
 import GoogleProvider from "next-auth/providers/google"
 import { signIn } from 'next-auth/react';
 
-export const url="http://3.95.151.170:3001"
+// export const url="http://3.95.151.170:3001"
+export const url="https://sumserver.learngames.shop"
 // export const url="http://localhost:3001"
 export const NEXT_AUTH = {
   providers: [
